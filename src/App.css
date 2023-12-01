@@ -1,8 +1,121 @@
 .App {
   text-align: center;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
 /* write your parent styles in here for your App.js */
+body {
+  background-image: url("https://wallpapercrafter.com/th8005/1397626-Star-Wars-Star-Wars-Battlefront-II-2017-Inferno.jpg");
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 30px;
+  color: white;
+  font-family: "Coda Caption ExtraBold", "Chelsea Market", "Coda Caption",
+    "Lexend Tera", "Righteous", "Roboto", "Roboto Mono", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Coda Caption ExtraBold", "Chelsea Market", "Coda Caption",
+    "Lexend Tera", "Righteous", "Roboto", "Roboto Mono", sans-serif;
+  text-align: center;
+}
+
+.karakter-listesi {
+  margin-top: 30px;
+}
+
+.karakter-listesi h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.karakter-listesi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.karakter-listesi li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.karakter-listesi li button {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: #17131b;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.karakter-listesi li button:hover {
+  background-color: #361e50;
+}
+
+.karakter-listesi li div {
+  margin-top: 20px;
+}
+
+.karakter-listesi li div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.karakter-listesi li div ul li {
+  margin-bottom: 10px;
+}
+
+.karakter-listesi li div ul li span {
+  font-weight: bold;
+}
+
+.karakter-listesi li div h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.karakter-listesi li div h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.karakter-listesi li div p {
+  margin: 0;
+  margin-bottom: 5px;
+}
